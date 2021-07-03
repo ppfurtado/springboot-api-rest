@@ -39,7 +39,6 @@ public class GreetingsController {
      * @return greeting text
      */
     
-	@CrossOrigin
     @GetMapping("/usuarios") /* Método buscar todos os usuários*/
     @ResponseBody /*Retorna os dados para o corpo da respostas*/
     public ResponseEntity<List<Usuario>> listarUsuarios(){
